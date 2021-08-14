@@ -25,4 +25,5 @@ private:
     SDL_Window *_window = nullptr;
 public:
     static SDL_Renderer *renderer;
+    float _dT;
 };
